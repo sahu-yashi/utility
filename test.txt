@@ -1,0 +1,5 @@
+Can not edit temperature: Have added the functionality to edit temperature as well as country name
+Can not add twice(gives indexOutOfBound error):I have removed an additional new line character at end when writing in file which was causing the error.
+Sorting after adding new country doesnt include the new country: To resolve this , I have read the original file again after making any changes.
+Can not handle null: I have added additional "if else" for that
+When writing to a file the heading of "country name" and "Temperature" was not present which was causing some rows to be deleted, fixed that.
